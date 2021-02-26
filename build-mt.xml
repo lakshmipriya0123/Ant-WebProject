@@ -47,7 +47,7 @@
 	</path>
 
 	
-	<target name="war" > 
+	<target name="war"  
 	          description="Create WAR file for binary distribution">
 		<war destfile="${war.home}/${app.name}.war" webxml="${work.home}/WEB-INF/web.xml">
 			<fileset dir="${work.home}"/>
